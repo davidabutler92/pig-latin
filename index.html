@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css"    rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/main.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container-fluid text-center">
+      <div class="jumbotron">
+        <h1>
+          Pig Latin Translator:
+          <small class="text-muted">igPay atinLay anslatorTray</small>
+        </h1>
+      </div>
+      <form id="piglatin-survey">
+        <div class="form-group">
+          <label for="userInput">Enter a phrase:</label>
+          <input type="text" name="userInput" id="userInput">
+        </div>
+        <button type="submit" class="btn btn-primary">See results</button>
+      </form>
+      <div id="results">
+        <p><span id="output"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
