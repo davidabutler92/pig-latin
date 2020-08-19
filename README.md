@@ -15,12 +15,12 @@
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| * 1. The program ignores non-letters becasue it is not a consonant or vowel  | 5 | 0 |
-| * 2. The program adds "way" to single-letter words beginning with a vowel | i | iway |
-| * 3. The program adds "way" to all words beginning with a vowel. | apple | appleway |
-| * 4. The program recongizes words beginning with one consonant, move the first consonant to the end, add "ay". | latin | atinlay | 
-| * 5. The program recongizes words beginning with "y" treat it as a consonant | you | uoyay |
-| * 6. The program recongizes words beginning with one or more consonants, move all of the first consecutive consonants to the end, and add "ay". | what | atwhay |
+|  1. The program ignores non-letters becasue it is not a consonant or vowel  | 5 | 0 |
+|  2. The program adds "way" to single-letter words beginning with a vowel | i | iway |
+|  3. The program adds "way" to all words beginning with a vowel. | apple | appleway |
+|  4. The program recongizes words beginning with one consonant, move the first consonant to the end, add "ay". | latin | atinlay | 
+|  5. The program recongizes words beginning with "y" treat it as a consonant | you | uoyay |
+|  6. The program recongizes words beginning with one or more consonants, move all of the first consecutive consonants to the end, and add "ay". | what | atwhay |
 | ** 7. The program recongizes if the first consonants include "qu", move the "u" along with the "q" | squeal | ealsquay |
   
 ## Setup/Installation Requirements
