@@ -13,6 +13,9 @@ $(document).ready(function() {
         alert("Letters only! No numbers please, enter a phrase.");
       }
     }
-    isLetter(userInput);
+    isLetter(userInput); //<<< I learned that you have to call the funtion to use it.
+
+    const splitArr = userInput.split(" ");
+    console.log(splitArr);
   });
 });
